@@ -11,7 +11,7 @@ function App() {
         </div>
         <div className="content">
             <div className="video">
-                <ReactPlayer width="400px" height="250px" url="https://www.youtube.com/watch?v=-KkJEZ5Atgw" />
+                <ReactPlayer width="400px" height="250px" url="https://www.youtube.com/watch?v=-KkJEZ5Atgw&ab_channel=karamatik" />
             </div>
         </div>
     </div>

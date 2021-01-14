@@ -5,10 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(to top, rgba(97,97,97,0.01), rgba(97,97,97,0.01)), url('assets/karinho.jpg') no-repeat;
-  background-size: auto, cover;
+  background-image: url('assets/filter.svg'), linear-gradient(to top, rgba(255,255,255,0.1), rgba(255,255,255,0.4)), url('assets/karinho.jpg');
+  background-size: 512px, auto, cover;
+  background-position: center, 0% 0%, center;
+  background-repeat: repeat, repeat, no-repeat;
   background-attachment: scroll;
-  background-position: 0% 0%, center;
   transform: scale(1);
 }
 
